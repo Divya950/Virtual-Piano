@@ -1,0 +1,161 @@
+body{
+    overflow-x: hidden;
+    margin: 0px
+}
+#div1{
+    background-image: url("https://cdn.pixabay.com/photo/2020/09/15/15/56/background-5574027_1280.png");
+    margin-top: -60px;
+
+
+    background-size: 100%;
+}
+
+
+.white-key{
+    background-color: white;
+    height: 200px;
+    width:40px;
+    border-radius: 0 0 6px 6px;
+    border:1px solid rgb(139, 128, 128);
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0px 7px  grey;
+    position: relative;
+    
+}
+
+.piano{
+    display: flex;
+    margin-left: 5%;
+    margin-top:90px;
+    position: relative;
+  
+   }
+.black-key{
+    height: 110px;
+    width: 32px;
+    position: relative;
+    border:0px solid black;
+    outline: none;
+    cursor: pointer;
+    background-color: black;
+    z-index: 2;
+    margin:-16px;
+    margin-top:0px;
+    border-radius:0 0 6px 6px ;
+    box-shadow: 0 4px rgb(238, 234, 234)
+}
+
+.subtitle{
+    
+    
+    height: auto;
+    width:90%;
+      margin: 7%
+      ;margin-top: 60px;
+      border-radius: 8px;
+      padding-top :10px;
+
+      
+}
+
+.colour{
+   
+    padding-top:0px;
+   
+}
+
+.title{
+     margin-top: 70px;
+        color:rgb(181, 113, 212);
+        font-size: 50px;
+        font-family:Georgia, 'Times New Roman', Times, serif 
+        ;margin-left: 10%;
+
+}
+#button1{
+    background-color:  rgb(228, 129, 129);
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+    padding: 12px;
+    margin: 10px;
+    box-shadow: 2px 2px rgb(100, 87, 87) ;
+    border: none;
+
+}
+
+#button2{
+    background-color:  rgb(250, 165, 68);
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+    padding: 12px;
+    margin: 10px;
+    box-shadow: 2px 2px rgb(100, 87, 87) ;
+    border: none;
+}
+
+#button3{
+    background-color: rgba(220, 236, 76, 0.945);
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+    padding: 12px;
+    margin: 10px;
+    box-shadow: 2px 2px rgb(100, 87, 87) ;
+    border: none;
+}
+
+#button4{
+    background-color:  rgb(170, 236, 170);
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+    padding: 12px;
+    margin: 10px;
+    box-shadow: 2px 2px rgb(100, 87, 87) ;
+    border: none;
+
+}
+
+#button5{
+    background-color:  rgb(172, 166, 226);
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+    padding: 12px;
+    margin: 10px;
+    box-shadow: 2px 2px rgb(100, 87, 87) ;
+    border: none;
+}
+
+
+
+#button6{
+    background-color:  rgb(155, 61, 218);
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;
+    padding: 12px;
+    margin: 10px;
+    box-shadow: 2px 2px rgb(100, 87, 87) ;
+    border: none;
+}
+
+
+@media only screen and (max-width:480px){
+    .title{
+        width:270px;
+    }
+    .subtitle{
+        width:100%;
+    }
+    .piano{
+        width:100%;
+        box-align:center;
+      
+      
+    }
+
+}
