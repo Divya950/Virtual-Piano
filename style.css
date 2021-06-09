@@ -74,7 +74,7 @@ body{
 
 }
 #button1{
-    background-color:  rgb(228, 129, 129);
+    background-color: lightblue;
     height: 30px;
     width: 80px;
     border-radius: 10px;
@@ -86,7 +86,7 @@ body{
 }
 
 #button2{
-    background-color:  rgb(250, 165, 68);
+    background-color: lightsalmon;
     height: 30px;
     width: 80px;
     border-radius: 10px;
@@ -97,7 +97,7 @@ body{
 }
 
 #button3{
-    background-color: rgba(220, 236, 76, 0.945);
+    background-color: lightpink;
     height: 30px;
     width: 80px;
     border-radius: 10px;
@@ -120,7 +120,7 @@ body{
 }
 
 #button5{
-    background-color:  rgb(172, 166, 226);
+    background-color:  lightseagreen;
     height: 30px;
     width: 80px;
     border-radius: 10px;
@@ -133,7 +133,7 @@ body{
 
 
 #button6{
-    background-color:  rgb(155, 61, 218);
+    background-color:  lightgrey;
     height: 30px;
     width: 80px;
     border-radius: 10px;
@@ -142,7 +142,6 @@ body{
     box-shadow: 2px 2px rgb(100, 87, 87) ;
     border: none;
 }
-
 
 @media only screen and (max-width:480px){
     .title{
